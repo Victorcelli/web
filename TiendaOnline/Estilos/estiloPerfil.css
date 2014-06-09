@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*=============================================================================================================================================================
+	REGISTRARSE - Afecta a la opcion del menú "registrarse"
+=============================================================================================================================================================*/
+
+
+/*============================================
+	Estilo para editar usuario
+=============================================*/
+#divEditarUser
+{
+	position: relative;
+}
+
+#divDatosUser{
+    margin-left:40px;
+} 
+
+#divDatosUser label{
+    display: block;
+    width: 80px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+
+/*============================================
+	Estilo para baja de usuario
+=============================================*/
+#divBajaUser
+{
+	position: relative;
+}
+
+
+#divFormBajaUser
+{
+	margin-left: 10px;
+}
