@@ -69,6 +69,19 @@
 	</div>
     
     
+    
+    <?php
+    
+	if(!isset($_SESSION['nick']))
+	{ 
+		die('Acceso no permitido. Debe registrarse en la web para tener acceso');
+	}
+	else
+	{
+		
+	?>
+
+    
     <!-- div donde se muestran los productos seleccionados por el cliente antes de comprar -->
     
     <div id="divCarrito">
@@ -111,5 +124,11 @@
             </div>
         </div>
     </div>
+    
+	<?php
+	
+	}
+	
+	?>
 </div>   
  
